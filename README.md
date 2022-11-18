@@ -4,7 +4,10 @@
 ## 📺 Demo
 >  ( ◍  ´ ꒳` ◍ )🪄  = [★ 데모 페이지(Heroku)!](https://vm-hemdi.herokuapp.com/)
 
-## 구현기능 
+## 🛠 Tech Stack
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F0DB4F?style=flat&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/VSC-007ACC?style=flat&logo=VisualStudioCode&logoColor=white"/>
+
+## 🖼 구현기능 
 ### __돈 투입__
 <img src="https://user-images.githubusercontent.com/34249911/169691302-66d997f0-9953-4831-a64a-ac3347d11e1a.gif" width="60%" height="60%" >
 <img src="https://user-images.githubusercontent.com/34249911/169691289-bca219fb-11e2-4b3d-bc9c-f1e29da1336d.gif"  width="60%" height="60%">
