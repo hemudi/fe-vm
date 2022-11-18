@@ -1,53 +1,22 @@
-# 🧃 fe-vm
-
+## 🧃 vending machine
 코드스쿼드 FE 개인 미션 - 자판기 프로젝트
 
-## 📝 Convention
+## 📺 Demo
+>  ( ◍  ´ ꒳` ◍ )🪄  = [★ 데모 페이지(Heroku)!](https://vm-hemdi.herokuapp.com/)
 
-### 📌 Commit
+## 구현기능 
+### __돈 투입__
+<img src="https://user-images.githubusercontent.com/34249911/169691302-66d997f0-9953-4831-a64a-ac3347d11e1a.gif" width="60%" height="60%" >
+<img src="https://user-images.githubusercontent.com/34249911/169691289-bca219fb-11e2-4b3d-bc9c-f1e29da1336d.gif"  width="60%" height="60%">
+<img src="https://user-images.githubusercontent.com/34249911/169691296-54ab1c6e-ad4b-47a5-8e7e-097e02fc86c0.gif"  width="60%" height="60%">
 
-```
-Type: 한국어 커밋 제목
+### __돈 반환__
+<img src="https://user-images.githubusercontent.com/34249911/169691282-8a327f4e-9a77-454a-9c52-025c7e061a6e.gif"  width="60%" height="60%">
 
-* 커밋에 대한 부연설명(Option)
+### __물품 구매__
+<img src="https://user-images.githubusercontent.com/34249911/169691279-389ec68c-b285-49d9-a4e5-a4022de92bd8.gif"  width="60%" height="60%">
 
-Issue Type: #이슈번호
-```
-
-#### Commit Type
-
-| Type     | Description                                                                                       |
-| -------- | ------------------------------------------------------------------------------------------------- |
-| Init     | 초기화                                                                                            |
-| Feat     | 새로운 기능 추가                                                                                  |
-| Fix      | 버그 수정                                                                                         |
-| Docs     | 문서 작업, 수정                                                                                   |
-| Refactor | 코드 리팩토링                                                                                     |
-| Style    | 코드 스타일 및 포맷 변경(코드 자체의 변경은 없는 경우, 함수/ 변수명 변경 포함)                    |
-| Test     | 테스트 코드 작성, 테스트 리팩토링(프로덕션 코드 변경 X)                                           |
-| Chore    | 소스 코드를 건들지 않는 작업 - 빌드 테스트 업데이트, 패키지 매니저를 설정하는 경우(ex: gitignore) |
-| Design   | CSS 등 UI 디자인 변경                                                                             |
-| Rename   | 파일 혹은 폴더명을 수정하거나 옮기는 작업만 수행                                                  |
-| Remove   | 파일을 삭제하는 작업만 수행                                                                       |
-| Comment  | 필요한 주석 추가 및 변경                                                                          |
-| Build    | 빌드 관련 파일 수정                                                                               |
-| !HOTFIX  | 급하게 치명적인 버그를 고쳐야 하는 경우                                                           |
-
-#### Issue Type
-
-| Type       | Description                                 |
-| ---------- | ------------------------------------------- |
-| Fixes      | 이슈 수정 중                                |
-| Close      | 이슈를 해결 했을 때 & 닫을 때               |
-| Ref        | 참고 할 만한 이슈가 있을 때                 |
-| Related to | 해당 커밋과 관련 된 아직 해결되지 않은 이슈 |
-
-### 📌 Issue
-
-```
-## Description
-작업 설명
-
-## Tasks
-- [ ] Task
-```
+## 📝 PR List
+- [[Hemdi] 자판기 1주차 금요일 PR ](https://github.com/codesquad-members-2022/fe-vm/pull/54)
+- [[Hemdi] 자판기 2주차 수요일 PR](https://github.com/codesquad-members-2022/fe-vm/pull/90)
+- [[Hemdi] 자판기 2주차 마지막 PR](https://github.com/codesquad-members-2022/fe-vm/pull/120)
