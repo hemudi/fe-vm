@@ -19,7 +19,3 @@
 ### __물품 구매__
 <img src="https://user-images.githubusercontent.com/34249911/169691279-389ec68c-b285-49d9-a4e5-a4022de92bd8.gif"  width="60%" height="60%">
 
-## 📝 PR List
-- [[Hemdi] 자판기 1주차 금요일 PR ](https://github.com/codesquad-members-2022/fe-vm/pull/54)
-- [[Hemdi] 자판기 2주차 수요일 PR](https://github.com/codesquad-members-2022/fe-vm/pull/90)
-- [[Hemdi] 자판기 2주차 마지막 PR](https://github.com/codesquad-members-2022/fe-vm/pull/120)
