@@ -1,5 +1,5 @@
 import API_URL from 'constants/apiUrl';
-import { getData } from './core';
+import { getData } from 'api/core';
 
 const { products, wallet } = API_URL;
 

@@ -1,6 +1,6 @@
 import React, { createContext, useEffect, useReducer } from 'react';
 import reducer from 'context/Product/reducer';
-import { dispatchAction } from './action';
+import { dispatchAction } from 'context/Product/action';
 
 const initState = { productData: [] };
 const ProductContext = createContext(initState);
