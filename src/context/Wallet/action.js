@@ -1,6 +1,4 @@
 import { getWalletData } from 'api';
-import API_URL from 'constants/apiUrl';
-import getMockData from 'mock';
 
 /* Type */
 export const INIT_WALLET = 'initWallet';
@@ -10,13 +8,7 @@ export const SPEND_MONEY = 'spendMoney';
 
 /* Dispatch Action */
 const initWallet = async dispatch => {
-  let walletData;
-  try {
-    walletData = await getWalletData();
-  } catch (error) {
-    const { wallet } = API_URL;
-    walletData = getMockData(wallet);
-  }
+  const walletData = await getWalletData();
   dispatch({ type: INIT_WALLET, payload: { walletData } });
 };
 

@@ -1,6 +1,4 @@
 import { getProductsData } from 'api';
-import API_URL from 'constants/apiUrl';
-import getMockData from 'mock';
 
 /* Type */
 export const INIT_PRODUCT = 'initProduct';
@@ -8,14 +6,7 @@ export const BUY_PRODUCT = 'buyProduct';
 
 /* Dispatch Action */
 const initProduct = async dispatch => {
-  let productData;
-  try {
-    productData = await getProductsData();
-  } catch (error) {
-    const { products } = API_URL;
-    productData = getMockData(products);
-  }
-
+  const productData = await getProductsData();
   dispatch({ type: INIT_PRODUCT, payload: productData });
 };
 

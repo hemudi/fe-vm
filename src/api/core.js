@@ -1,4 +1,5 @@
 import axios from 'axios';
+import getMockData from 'mock';
 
 const baseURL = 'http://localhost:3005';
 
@@ -12,8 +13,7 @@ const getData = async pathName => {
     const { data } = await instance.get(pathName);
     return data;
   } catch (error) {
-    console.log('Axios Error : ', error);
-    throw new Error(error);
+    return getMockData(pathName);
   }
 };
 
