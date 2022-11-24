@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import Input from 'components/atoms/Input';
 import Selector from 'components/molecules/Selector';
 import * as Styled from 'components/molecules/UserInputBox/UserInputBox.style';
-import { CURRENCY_STR } from 'constants';
 import { WalletContext } from 'context/Wallet';
 import { LogContext } from 'context/Log';
 import { calcInsertedMoney } from 'context/Wallet/reducer';

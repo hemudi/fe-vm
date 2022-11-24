@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useRef } from 'react';
-import mockData from './LogListMockData';
 import ListItem from 'components/atoms/ListItem';
 import * as Styled from 'components/molecules/LogList/LogList.style';
 import { LogContext } from 'context/Log';

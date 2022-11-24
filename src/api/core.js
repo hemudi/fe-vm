@@ -1,5 +1,4 @@
 import axios from 'axios';
-import getMockData from 'mock';
 
 const baseURL = 'http://localhost:3005';
 
