@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 
 const LogoImage = ({ isFlipped, ...props }) => {
-  return <Image src={logo} isFlipped={isFlipped} />;
+  return <Image src={logo} isFlipped={isFlipped} {...props} />;
 };
 
 const Image = styled.img`

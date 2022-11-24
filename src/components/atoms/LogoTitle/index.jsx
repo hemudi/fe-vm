@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import * as Styled from 'components/atoms/LogoTitle/LogoTitle.style';
 
 const LogoTitle = ({ contents, ...props }) => {
-  return <Styled.Title>{contents}</Styled.Title>;
+  return <Styled.Title {...props}>{contents}</Styled.Title>;
 };
 
 LogoTitle.defaultProps = {
